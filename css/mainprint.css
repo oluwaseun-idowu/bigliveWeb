@@ -1,0 +1,25 @@
+/* main.css */
+body {
+    margin: 2em;   
+   color:white;
+   -webkit-print-color-adjust: exact;
+   background: #222;
+  color: #eee;
+  }
+  
+  /* override styles when printing */
+  @media print {
+  
+    body {
+      margin: 0;
+      color: white;
+      -webkit-print-color-adjust: exact;
+      background: #222;
+  color: #eee;
+     
+    }
+
+    
+    
+  
+  }

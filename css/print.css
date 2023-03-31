@@ -1,0 +1,17 @@
+@media print {
+    h3 {
+      color: #fff;
+      text-shadow: 0 0 0 #fff;
+      background: #222;
+  color: #eee;
+    }
+
+    @media print and (-webkit-min-device-pixel-ratio:0) {
+      h3 {
+        color: #fff;
+        -webkit-print-color-adjust: exact;
+        background: #222;
+  color: #eee;
+      }
+    }
+ }
